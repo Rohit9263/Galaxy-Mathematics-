@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Galaxy Mathematics</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(172, 172, 234);
+            font-size: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: blueviolet;
+            margin: 60px 84px;
+            height: 1.22px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 150px 0;
+        }
+
+        .firstsection>div {
+            width: 35%;
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+            width: 40px;
+            margin: 30px 0;
+        }
+
+        .rightsection img {
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(171, 105, 233);
+        }
+
+        .text-grey {
+            color: grey;
+        }
+
+        #element {
+            color: rgb(171, 105, 233);
+            ;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+
+        .secondsection .box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Deepak Kumar</div>
+            <div class="right">
+                <ul>
+                    <li><a href="https://www.youtube.com/@galaxymathematicsclassesby9240">Home</a></li>
+                    <li><a href="https://www.youtube.com/@galaxymathematicsclassesby9240/videos">Course</a></li>
+                    <li><a href="">Contact Me</a></li>
+                    <li><a href="https://www.youtube.com/@galaxymathematicsclassesby9240/about">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi My Name is <span class="purple">
+                    Deepak
+                </span>
+                <div>And I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="dp-2.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-grey">
+                What I have done so far
+            </span>
+            <h1>Work Exprince</h1>
+
+            <div class="box"></div>
+
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Teacher', 'Motivator.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
